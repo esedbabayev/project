@@ -172,7 +172,7 @@ button.white{
     background-color: transparent;
     color: rgb(255, 58, 58);
     border: none;
-    padding: 14px 80px 14px 65px;
+    padding: 14px  14px 65px;
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 700;
@@ -823,5 +823,154 @@ footer .column:nth-child(3) h4{
 
     footer .copyright p {
         font-size: 12.3px;
+    }
+}
+
+@media (max-width:390px){
+    #bg-img {
+        background-position: 70% top 50%;
+        padding: 0 1px;
+    }
+
+    #bg-img h2{
+        font-size: 10px;
+    }
+
+    #bg-img p{
+        display: none;
+    }
+}
+
+@media (max-width:368px){
+    #bg-img button{
+        padding-right: 110px;
+        width: 0px;
+        height: 10px;
+        font-size: 20px;
+    }
+
+    #bg-img h1{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:721px){
+    #bg-img{
+        padding: 0 30px;
+    }
+}
+
+@media (max-width:648px){
+    #bg-img{
+        padding: 0 5px;
+    }
+
+    #bg-img h2,
+    #bg-img h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:543px){
+    #bg-img h2{
+        font-size: 33px;
+    }
+}
+
+@media (max-width:482px){
+    #bg-img h2{
+        font-size: 33px;
+    }
+}
+
+@media (max-width:493px){
+    footer .column {
+        margin-bottom: 10px;
+    }
+    footer .follow {
+        margin: 20px 50px;
+    }
+}
+
+@media (max-width:521px){
+    #bg-img p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:480px){
+    #bg-img h2,
+    #bg-img h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:452px){
+    #bg-img p{
+        font-size: 11.5px;
+    }
+}
+
+@media (max-width:435px){
+    #bg-img h2{
+        font-size: 26px;
+    }
+
+    #bg-img p{
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width:500px){
+    #features{
+        padding: 20px  10px;
+        justify-content: space-around;
+    }
+}
+
+/* -------------------- */
+
+@media (max-width:672px){
+    .section-p {
+        padding: 40px 20px;
+    }
+
+    footer .column:nth-child(4) {
+        /* padding-top: 2000px; */
+        /* background-color: red; */
+        padding-top: 50px;
+        margin-top: 1px;
+        margin-left: 120px;
+    }
+}
+
+@media (min-width:798px){
+    #banner3 .banner-box {
+        width: 100%;
+    }
+}
+
+@media (max-width:416px){
+    footer .column:nth-child(4) {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width:514px){
+    #bg-banner {
+        height: 30vh;
+    }
+}
+
+@media (max-width:646px){
+    p {
+        font-size: 10px;
+        color: #465B52;
+        margin: 15px 0 10px 0;
+    }
+
+    .section-p {
+        padding: 40px 10px;
     }
 }
