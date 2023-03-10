@@ -974,3 +974,9 @@ footer .column:nth-child(3) h4{
         padding: 40px 10px;
     }
 }
+
+@media (max-width:673px){
+    #banner3 {
+        padding: 0 10px;
+    }
+}

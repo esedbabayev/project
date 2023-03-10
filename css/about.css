@@ -37,7 +37,7 @@
     border-radius: 20px;
 }
 
-@media (max-width: 477px){
+@media (max-width: 647px){
     #about-head {
         flex-direction: column;
     }
@@ -54,5 +54,20 @@
 
     #about-app .video {
         width: 100%;
+    }
+
+    #page-header p{
+        font-size: 14px;
+    }
+
+    #about-head div p{
+        font-size: 14px;
+        padding-bottom: 13px;
+    }
+}
+
+@media (max-width:796px){
+    #about-head div h2{
+        font-size: 35px;
     }
 }

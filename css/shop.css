@@ -35,5 +35,40 @@
     font-weight: 600;
 }
 
+@media (max-width:500px){
+    #features{
+        padding: 20px  10px;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:583px){
+    #product .product-container {
+        display: flex;
+        padding: 20px 15px;
+    }
+    
+    #product .product {
+        width: 100%;
+    }
+}
+
+@media (max-width:584){
+    #product .product {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 5px 5px;
+    }
+}
+
+@media (max-width:635px){
+    #prodetails .single-pro-details h4 {
+        font-size: 17px;
+    }
+}
+
+
+
 
 

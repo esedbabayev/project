@@ -67,7 +67,7 @@
     z-index: -1;
 }
 
-@media (max-width: 477px){
+@media (max-width: 740px){
     
     #blog {
         padding: 100px 20px 0 20px;
@@ -80,12 +80,29 @@
     }
 
     #blog .blog-img {
-        width: 100%;
+        width: 80%;
         margin-right: 0px;
         margin-bottom: 30px;
     }
 
     #blog .blog-details {
         width: 100%;
+    }
+}
+
+@media (max-width: 798px){
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 40px;
+        margin-bottom: 30px;
+    }
+
+    #blog {
+        padding-left: 20;
+    }
+
+    #blog .blog-details {
+        width: 80%;
+        background-position: top 40%;
     }
 }
