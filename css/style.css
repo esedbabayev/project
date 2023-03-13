@@ -606,7 +606,21 @@ footer .column:nth-child(3) h4{
 
 /* home page */
 
-@media (max-width:799px){
+@media (max-width:1484px){
+    #seven-banner .banner-box {
+        width: 100%;
+    }
+}
+
+/* @media (max-width:1234px){
+    footer .column:nth-child(4) {
+        padding-top: 50px;
+        margin-top: 1px;
+        margin-left: 70px;
+    }
+} */
+
+@media (max-width:1240px){
     
     /* nav */
     
